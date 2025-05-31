@@ -36,6 +36,7 @@ jobs:
         name: webapp
         path: website/**
         if-no-files-found: warn
+    with:
     # Artifact name
     name: # optional, default is artifact
     # A file, directory or wildcard pattern that describes what to upload
